@@ -1,0 +1,115 @@
+
+    body{
+        height: 100%;
+        width: 100%;
+        color: white;
+        font-family: calibri;
+        background: linear-gradient(to bottom right,#0079bf,#5067cf);
+    }
+    @media screen and (max-width:900px){
+        #link-button{
+            position: absolute;
+            margin-top: 35px;
+        }
+        .input-button{
+            margin-left:20px;
+        }
+        #header-resizing{
+            font-size: larger;
+            margin-left: 20px;
+        }
+    }
+    @media screen and(max-width:600px){
+        #styling-image{
+            margin-bottom:30px
+        }
+        .input-button{
+            margin-right:40px;
+        }
+        #resizing-pic{
+            align-content: center;
+        }
+        #word-paragraph{
+            align-content: center;
+        }
+        #header-resizing{
+            font-size: larger;
+            margin-left: 50px;
+        }
+        #para-resizing{
+            font-size: larger;
+            font-size: 50px;
+        }
+        #email-input{
+            width: 600px;
+            height: 100px;
+        }
+    }
+        #styling-image{
+            height: 100px;
+            width: 100px;
+            object-fit: contain;                                                                                                                                                                                                                                                                                                                                                                                                         
+        }
+        .top-section{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+        }
+        #link-button{
+            position: absolute;
+            right: 0;
+        }
+        #link-button a{
+            padding: 5px;
+            font-size: 15px;
+            text-decoration: none;
+            color:white;
+        }
+        #topbar-button{
+            height: 45px;
+            width: 80px;
+            color: blue;
+            border-radius: 5px;
+        }
+        #word-paragraph{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 15px auto;
+        }
+        #header-resizing{
+            font-size: 40px;
+            margin-left: 100px;
+        }
+        #para-resizing{
+            font-size: 20px;
+            margin-left: 100px;
+        }
+        #resizing-pic{
+            height: 350px;
+            width: 500px;
+        }
+        .input-button{
+            display: flex;
+            flex-direction: row;
+            margin-left: 100px;
+            flex-wrap: wrap;
+        }
+        #email-input{
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        
+        }
+        #button{
+            width:300px;
+            height: 48px;
+            margin-left: 5px;
+            background-color:rgba(161, 241, 32, 0.7);
+            color: white;
+            border-radius: 5px;
+        }
+        #button-word{
+            font-size: small;
+        }
